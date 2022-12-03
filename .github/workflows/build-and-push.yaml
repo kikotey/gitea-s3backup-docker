@@ -38,7 +38,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v4
         with:
-          images: kikotey/gitea-custom
+          images: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_IMAGE_NAME }}
           tags: |
             type=semver,pattern={{version}}
             type=sha
@@ -57,7 +57,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: ${{ steps.docker_meta.outputs.tags }}
+          tags: ${{ steps.docker_meta.outputs.tags }} , ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_IMAGE_NAME }}:latest
           # Do not push on pull request trigger - only build
           push:  ${{ github.event_name != 'pull_request' }}
 
