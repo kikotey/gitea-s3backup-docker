@@ -1,6 +1,6 @@
 FROM gitea/gitea:1.17.2
 
-LABEL maintainer="sebastien.pondichy@gmail.com"
+LABEL maintainer="jack.crosnierdebellaistre@kikotey.com"
 
 COPY /scripts /scripts
 

@@ -1,5 +1,7 @@
 # gitea-s3backup-docker
 
+THIS IS A INSPIRATION OF THE WORK OF [pondichys](https://github.com/pondichys/gitea-s3backup-docker)
+
 This repository contains the [Dockerfile](./Dockerfile) to build a container based on __Gitea__ official image that includes the `s3cmd` tool to copy a backup file to an __S3__ compatible object storage.
 
 ## Origin
@@ -57,7 +59,7 @@ After some minutes, __Dependabot__ has created a pull request with the following
 ```bash
 # Using Github CLI to list active pull requests 
 gh pr list
-Showing 1 of 1 open pull request in pondichys/gitea-s3backup-docker
+Showing 1 of 1 open pull request in  kikotey/gitea-s3backup-docker 
 
 #1  Bump gitea/gitea from 1.14.2 to 1.14.5  dependabot/docker/gitea/gitea-1.14.5
 ```

@@ -9,4 +9,4 @@ RUN apk --no-cache add \
     py3-pip \
     && pip3 install s3cmd \
     && chmod u+x /scripts/gitea-backup.sh \
-    && mkdir -p /etc/s3cmd
+    && mkdir -p /etc/s3cmd 
