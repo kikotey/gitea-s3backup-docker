@@ -52,11 +52,20 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       
-      - name: Build and push Docker image
+      - name: Build and push Docker image with sha tag
         uses: docker/build-push-action@v3
         with:
           context: .
           file: ./Dockerfile
           tags: ${{ steps.docker_meta.outputs.tags }}
+          # Do not push on pull request trigger - only build
+          push:  ${{ github.event_name != 'pull_request' }}
+
+      - name: Build and push Docker image with latest tag
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          file: ./Dockerfile
+          tags: latest
           # Do not push on pull request trigger - only build
           push:  ${{ github.event_name != 'pull_request' }}
