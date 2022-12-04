@@ -18,8 +18,6 @@ S3cmd Bucket Backup Script for DigitalOcean Spaces & Amazon S3
 *   Restore to bucket on new account/region possible
 *   User-friendly menu
 
-![S3 Bucket Backup Script](https://www.dev.stageps.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/S3-Bucket-Backup-Script-1024x576.png)
-
 ![S3 Bucket Backup Script](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20576%22%3E%3C/svg%3E)
 
 [Documentation](https://www.pluginsandsnippets.com/knowledge-base/s3cmd-bucket-backup-script-documentation/)
@@ -126,37 +124,24 @@ Once the bucket backup script is installed, the user can access a menu via (by e
 **Script Screenshots**
 ----------------------
 
-![](https://www.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/Menu-in-SSH-800x1024.jpg)
+![](./Menu-in-SSH-800x1024.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%201024%22%3E%3C/svg%3E)
+![](./S3cmd-Bucket-Backup-Script-DigitalOcean-Spaces.png)
 
-![](https://www.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/Backup-Modus-Production-and-Test--1024x284.png)
+![](./Backup-Modus-Production-and-Test--1024x284.png)
 
-![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20284%22%3E%3C/svg%3E)
+![](./Backup-Period-Auto-Rotation-and-Lifecycle-1024x209.jpg)
 
-![](https://www.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/Backup-Period-Auto-Rotation-and-Lifecycle-1024x209.jpg)
+![](./Executing-Restore-of-Backup-1024x376.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20209%22%3E%3C/svg%3E)
+![](./Restoring-a-Backup-via-Quick-and-Easy-1024x197.png)
 
-![](https://www.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/Executing-Restore-of-Backup-1024x376.jpg)
+![](./Setting-Timezone-on-Server-via-SSH-1024x507.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20376%22%3E%3C/svg%3E)
+![](./Configuring-Bucket-Endpoints-in-5-simple-steps-1024x500.jpg)
 
-![](https://www.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/Restoring-a-Backup-via-Quick-and-Easy-1024x197.png)
+![](./S3cmd-Bucket-Backup-Script-DigitalOcean-Spaces.png)
 
-![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20197%22%3E%3C/svg%3E)
-
-![](https://www.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/Setting-Timezone-on-Server-via-SSH-1024x507.jpg)
-
-![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20507%22%3E%3C/svg%3E)
-
-![](https://www.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/Configuring-Bucket-Endpoints-in-5-simple-steps-1024x500.jpg)
-
-![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20500%22%3E%3C/svg%3E)
-
-![](https://www.pluginsandsnippets.com/wp-content/uploads/edd/2021/07/S3cmd-Bucket-Backup-Script-DigitalOcean-Spaces.png)
-
-![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20650%20324%22%3E%3C/svg%3E)
 
 **Why do you need a bucket-backup script?**
 -------------------------------------------
