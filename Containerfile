@@ -1,6 +1,6 @@
 FROM docker.io/gitea/gitea:1.15.8
 
-LABEL maintainer="sebastien.pondichy@gmail.com"
+LABEL maintainer="jack.crosnierdebellaistre@kikotey.com"
 
 COPY /scripts /scripts
 
